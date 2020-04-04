@@ -66,3 +66,46 @@ div.contacts li.thirdContact{
     border-bottom: 2px solid #000000;
     transition: 0.3s;
 }
+
+.linkBack{
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 18px;
+    color: #000;
+    font-size: 600;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.linkBack:hover{
+    background-color: rgb(26, 26, 26);
+    color: #fff;
+}
+
+@media (max-width: 800px){
+    div.boxContacts{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logoContact{
+        border-bottom: 1px solid black;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        border-right: none;
+    }
+
+    div.contacts{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .linkBack{
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,129 @@
+@media (max-width: 1024px){
+
+    #principalContainer{
+        max-width: 900px;
+    }
+
+    header{
+        justify-content: space-evenly;
+    }
+
+    div.logo img{
+        width: 300px;
+        margin: 20px 0;
+    }
+    
+    div.contact ul img{
+        width: 40px;
+    }
+    
+    div.contact a{
+        font-weight: 700;
+    }
+
+    .contact ul:last-child{
+        padding-right: 10px;
+    }
+
+    section{
+        flex-direction: column;
+    }
+
+    .slideShow, .slideShow2{
+        border-radius: 0;
+        height: 400px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    main div.carrer h1{
+        margin-top: 0;
+        padding-top: 40px;
+    }
+    
+    main div.carrer p{
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+    
+    div#lawer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    div#lawer img{
+        margin-top: 20px;
+    }
+    
+    
+    section#locationContainer{
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    section iframe{
+        width: 100%;
+}
+
+    section div.address h2{
+        margin: 20px 0 10px 0;
+    }
+
+}
+
+@media (max-width: 720px){
+    header{
+        flex-direction: column;
+        padding-bottom: 18px;
+    }
+
+    div.logo{
+        justify-content: center;
+    }
+
+    nav ul li:nth-child(1){
+        display: none;
+    }
+    nav ul li:nth-child(2){
+        display: none;
+    }
+    nav ul li:nth-child(3){
+        display: none;
+    }
+
+    div.contact{
+        justify-content: center;
+    }
+
+    .slideShow, .slideShow2{
+        border-radius: 0;
+        height: 400px;
+    }
+
+    div#lawer img{
+        width: 380px;
+    }
+
+    footer{
+        flex-direction: column;
+        height: 250px;
+    }
+
+    footer div.institutes{
+        border-bottom: 1px solid wheat;
+        margin-bottom: 5px;
+        border-right: none;
+        padding-bottom: 20px;
+    }
+    
+    footer div.copyRight p{
+        text-align: center;
+    }
+
+    footer .linkTo{
+        margin-left: 32px;
+    }
+}

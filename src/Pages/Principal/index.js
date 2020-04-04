@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 
 import './styles.css'
 import './slideStyle.css'
+import './responsiveStyles.css'
 
 import logoProv from '../../Assets/logoprovisoria.png'
 import whatsIcon from '../../Assets/whatsIcon.png'
